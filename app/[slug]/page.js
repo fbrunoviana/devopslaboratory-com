@@ -28,7 +28,7 @@ export default async function PostPage({ params }) {
   const discussUrl = `https://x.com/search?q=${encodeURIComponent(
     `https://devopslaboratory.com/${params.slug}/`,
   )}`;
-  const editUrl = `https://github.com/gaearon/devopslaboratory.com/edit/main/public/${encodeURIComponent(
+  const editUrl = `https://github.com/fbrunoviana/devopslaboratory-com//edit/main/public/${encodeURIComponent(
     params.slug,
   )}/index.md`;
   return (
