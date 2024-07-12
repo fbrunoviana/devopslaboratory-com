@@ -1,7 +1,7 @@
 import { Feed } from "feed";
 
 export function generateFeed(posts, metadata) {
-  const site_url = "https://overreacted.io/";
+  const site_url = "https://devopslaboratory.pages.dev/";
 
   const feedOptions = {
     author: {

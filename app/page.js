@@ -9,8 +9,8 @@ export const metadata = {
   description: "A personal blog by Dan Abramov",
   alternates: {
     types: {
-      "application/atom+xml": "https://overreacted.io/atom.xml",
-      "application/rss+xml": "https://overreacted.io/rss.xml",
+      "application/atom+xml": "https://devopslaboratory.pages.dev/atom.xml",
+      "application/rss+xml": "https://devopslaboratory.pages.dev/rss.xml",
     },
   },
 };
