@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
             <HomeLink />
             <span className="relative top-[4px] italic">
               by{" "}
+              <Link href="https://devopslaboratory.com/" target="_blank">
                 <img
                   alt="Bruno Viana"
                   src="https://github.com/fbrunoviana.png"
