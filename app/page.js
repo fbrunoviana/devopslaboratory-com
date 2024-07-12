@@ -5,12 +5,12 @@ import Color from "colorjs.io";
 import { sans } from "./fonts";
 
 export const metadata = {
-  title: "overreacted — A blog by Dan Abramov",
-  description: "A personal blog by Dan Abramov",
+  title: "devops laboratory — A blog by Bruno Viana",
+  description: "A personal blog by Bruno Viana",
   alternates: {
     types: {
-      "application/atom+xml": "https://devopslaboratory.pages.dev/atom.xml",
-      "application/rss+xml": "https://devopslaboratory.pages.dev/rss.xml",
+      "application/atom+xml": "https://devopslaboratory.com/atom.xml",
+      "application/rss+xml": "https://devopslaboratory.com/rss.xml",
     },
   },
 };

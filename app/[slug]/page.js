@@ -26,9 +26,9 @@ export default async function PostPage({ params }) {
   }
   const { content, data } = matter(file);
   const discussUrl = `https://x.com/search?q=${encodeURIComponent(
-    `https://devopslaboratory.pages.dev/${params.slug}/`,
+    `https://devopslaboratory.com/${params.slug}/`,
   )}`;
-  const editUrl = `https://github.com/gaearon/devopslaboratory.pages.dev/edit/main/public/${encodeURIComponent(
+  const editUrl = `https://github.com/gaearon/devopslaboratory.com/edit/main/public/${encodeURIComponent(
     params.slug,
   )}/index.md`;
   return (
@@ -96,7 +96,7 @@ export async function generateMetadata({ params }) {
   const file = await readFile("./public/" + params.slug + "/index.md", "utf8");
   let { data } = matter(file);
   return {
-    title: data.title + " — overreacted",
+    title: data.title + " — devops laboratory",
     description: data.spoiler,
   };
 }
