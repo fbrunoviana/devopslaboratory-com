@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "run-p next-dev watch-content",
     "next-dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",  
     "start": "next start",
     "lint": "next lint",
     "watch-content": "node ./watcher.js",
