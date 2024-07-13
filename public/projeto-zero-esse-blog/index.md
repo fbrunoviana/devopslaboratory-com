@@ -5,15 +5,20 @@ spoiler: "terraform, cloudflare e next.js"
 ---
 ## Apresentação
 
-Fala rapaziada!!!
+```js
+<p className="text-2xl font-sans text-purple-400 dark:text-purple-500">
+  <i>Fala rapeize!!!</i>!
+</p>
+```
 
 Neste tutorial, vamos configurar e realizar o nosso primeiro deploy de um projeto no Cloudflare Pages usando Terraform e GitHub. Vamos abordar os passos necessários para criar um projeto Pages, configurá-lo com uma fonte GitHub e realizar o primeiro commit para iniciar o build e deployment.
 
 ## Pré-requisitos
-- [ ] Conta no Cloudflare
-- [ ] Conta no GitHub 
-- [ ] [Terraform instalado](https://developer.hashicorp.com/terraform/install) em sua máquina 
+- Conta no Cloudflare
+- Conta no GitHub 
+- [Terraform instalado](https://developer.hashicorp.com/terraform/install) em sua máquina 
 
+---
 ## Repositório de código
 
 Procurando por personal blog no GitHub, me deparei com: [overreacted.io](https://github.com/gaearon/overreacted.io), que me encantou de primeira pelo design e estilo simples. Forkei ele e dei o nome do meu site `devopslaboratory-com`.
@@ -97,11 +102,11 @@ resource "cloudflare_pages_project" "basic_project" {
 
 Explicação:
 
-1. Seu `account_id` guardado nos passos anteriores.
-2. Nome do seu projeto, para testes uso "guelo".
-3. Seu usuário do GitHub.
-4. O nome do seu repositório.
-5. Comando para buildar o código.
+- Seu `account_id` guardado nos passos anteriores.
+- Nome do seu projeto, para testes uso "guelo".
+- Seu usuário do GitHub.
+- O nome do seu repositório.
+- Comando para buildar o código.
 
 ### Correr pro abraço
 
