@@ -1,7 +1,8 @@
 ---
 title: "The Hello World"
-date: '2024-06-12'
+date: <% tp.date.now() %>
 spoiler: "Olá mundo"
 ---
+
 
 Hello world, marcando o primeiro post.

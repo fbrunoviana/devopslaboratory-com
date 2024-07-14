@@ -38,3 +38,4 @@ next-env.d.ts
 public/.makemd
 public/.obsidian
 public/.space
+public/_*
