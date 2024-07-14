@@ -152,21 +152,16 @@ ansible-playbook -i 192.168.0.{10-98}, --user root --extra-vars lerolero.yaml 70
 
 #### Resultado compilado
 
+```markdown
 | SSH Host Key Checking          | Total Time (s) | Ganho de Tempo (s) | Percentual de Redução (%) |
-|---|---|---|---|
+|--------------------------------|----------------|--------------------|---------------------------|
 | Ativo (uma máquina)            | 13.888         | 0.000              | 0.000000                  |
 | Desativo (uma máquina)         | 13.142         | 0.746              | 5.371544                  |
 | Ativo (grupo de 10 máquinas)   | 38.720         | 0.000              | 0.000000                  |
 | Desativo (grupo de 10 máquinas)| 35.310         | 3.410              | 8.806197                  |
 | Ativo (89 hosts)               | 709.740        | 0.000              | 0.000000                  |
 | Desativo (89 hosts)            | 614.710        | 95.030             | 13.389410                 |
-
-
-
-|  | `new Person()` | `Person()` |
-|---|---|---|
-| `class` | ✅ `this` is a `Person` instance | 🔴 `TypeError`
-| `function` | ✅ `this` is a `Person` instance | 😳 `this` is `window` or `undefined` |
+```
 
 O impacto da desativação do SSH host key checking cresce com o aumento do número de máquinas. Enquanto o ganho é modesto para poucas máquinas, ele se torna bastante significativo para grandes grupos, chegando a até 13.38% de ganho com a desativação.
 
