@@ -3,8 +3,6 @@ title: Tunning Ansible - SSH Host Key Checking - Pt01
 date: 2024-06-17
 spoiler: ansible, mais rapido, pt01
 ---
-Aqui está a versão revisada do seu texto, com correções gramaticais e de sintaxe:
-
 ## Motivação
 
 ```js eval
