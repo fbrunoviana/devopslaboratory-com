@@ -161,3 +161,4 @@ O impacto da desativação do SSH host key checking cresce com o aumento do núm
 Embora a desativação do SSH host key checking possa melhorar o desempenho, é importante considerar os trade-offs de segurança. A verificação da chave do host ajuda a garantir que as conexões SSH são seguras e autênticas. Desativar essa verificação pode expor o ambiente a ataques man-in-the-middle, especialmente em redes não confiáveis.
 
 É importante considerar a velocidade da desabilitação desse recurso do SSH que, apesar de modesto, pode economizar tempo.
+
