@@ -1,7 +1,7 @@
 ---
-title: "The Hello World"
-date: <% tp.date.now() %>
-spoiler: "Olá mundo"
+title: The Hello World
+date: 2024-06-12
+spoiler: Olá mundo
 ---
 
 
