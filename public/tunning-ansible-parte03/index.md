@@ -1,5 +1,5 @@
 ---
-title: Tunning Ansible - Ansible e SSH  - Pt04
+title: Tunning Ansible - Ansible e SSH  - Pt03
 date: 2024-07-24
 spoiler: pipelining = True
 ---
