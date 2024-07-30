@@ -1,6 +1,6 @@
 ---
 title: Tunning Ansible - Disabling Fact Gathering - Pt02
-date: 2024-07-18
+date: 2024-07-14
 spoiler: ansible, mais rapido, pt02
 ---
 # Desabilitando Gathering Fact
