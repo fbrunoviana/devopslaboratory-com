@@ -1,7 +1,7 @@
 ---
 title: Tunning Ansible - Forks - Pt04
 date: 2024-08-08
-spoiler: ansible, mais rapido, pt04
+spoiler: pfvr corte a minha cabeça
 ---
 ---
 
