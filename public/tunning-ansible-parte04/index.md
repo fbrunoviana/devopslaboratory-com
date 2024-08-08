@@ -1,7 +1,7 @@
 ---
-title: Tunning Ansible - Forks - Pt03
-date: 2024-07-21
-spoiler: ansible, mais rapido, pt03
+title: Tunning Ansible - Forks - Pt04
+date: 2024-08-08
+spoiler: ansible, mais rapido, pt04
 ---
 ---
 
