@@ -104,7 +104,7 @@ ansible-playbook gather.yaml -e hosts=all  22.23s user 25.91s system 20% cpu 3:5
 
 #### Conclusão do primeiro teste 
 
-![[img01.png]]
+![alt text](img01.png)
 Os resultados indicam que, ao desabilitar o `gather_facts`, a redução no tempo de execução é proporcionalmente mais significativa com o aumento do número de máquinas. Embora o tempo economizado seja menor em termos absolutos para um pequeno número de máquinas, ele se torna substancialmente mais relevante em ambientes maiores, onde a coleta de facts em cada host pode se tornar um gargalo.
 ### Coletar Apenas Categorias Específicas de Facts
 

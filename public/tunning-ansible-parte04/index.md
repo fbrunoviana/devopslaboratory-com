@@ -58,7 +58,7 @@ Foi usado esse playbook, [fork.yaml](https://gist.githubusercontent.com/fbrunovi
 
 ### Resultados dos Testes
 
-![[img.png]]
+![alt text](img02.png)
 ### Cálculos de Melhora de Velocidade
 
 Melhora = (Tempo Base - Tempo Novo) / Tempo Base * 100
